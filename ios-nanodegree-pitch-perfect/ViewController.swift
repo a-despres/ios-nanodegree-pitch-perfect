@@ -11,23 +11,25 @@ import UIKit
 class ViewController: UIViewController {
 
     // MARK: - Interface Builder Outlets
+    @IBOutlet weak var recordButton: UIButton!
     @IBOutlet weak var recordingLabel: UILabel!
+    @IBOutlet weak var stopRecordingButton: UIButton!
     
     // MARK: - Interface Builder Actions
     @IBAction func recordAudio(_ sender: UIButton) {
-        print("record button was pressed")
         recordingLabel.text = "Recording in Progress"
+        recordButton.isEnabled = false
+        stopRecordingButton.isEnabled = true
     }
     @IBAction func stopRecording(_ sender: UIButton) {
-        print("stop recording button was pressed")
+        recordingLabel.text = "Tap to Record"
+        recordButton.isEnabled = true
+        stopRecordingButton.isEnabled = false
     }
     
     // MARK: - UIViewController
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        stopRecordingButton.isEnabled = false
     }
-
-
 }
-
