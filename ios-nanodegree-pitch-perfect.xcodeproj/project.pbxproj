@@ -12,6 +12,7 @@
 		A1048C6821834B9E00BA9FE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1048C6621834B9E00BA9FE6 /* Main.storyboard */; };
 		A1048C6A21834BA000BA9FE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1048C6921834BA000BA9FE6 /* Assets.xcassets */; };
 		A1048C6D21834BA000BA9FE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1048C6B21834BA000BA9FE6 /* LaunchScreen.storyboard */; };
+		A16DC6872184EF2000B97DA9 /* PlaySoundsViewController+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16DC6862184EF2000B97DA9 /* PlaySoundsViewController+Audio.swift */; };
 		A1B214452183F44600A59BD7 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B214442183F44600A59BD7 /* PlaySoundsViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 		A1048C6921834BA000BA9FE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1048C6C21834BA000BA9FE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1048C6E21834BA000BA9FE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A16DC6862184EF2000B97DA9 /* PlaySoundsViewController+Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlaySoundsViewController+Audio.swift"; sourceTree = "<group>"; };
 		A1B214442183F44600A59BD7 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,6 +65,7 @@
 				A1048C6B21834BA000BA9FE6 /* LaunchScreen.storyboard */,
 				A1048C6E21834BA000BA9FE6 /* Info.plist */,
 				A1B214442183F44600A59BD7 /* PlaySoundsViewController.swift */,
+				A16DC6862184EF2000B97DA9 /* PlaySoundsViewController+Audio.swift */,
 			);
 			path = "ios-nanodegree-pitch-perfect";
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				A1048C6521834B9E00BA9FE6 /* RecordSoundsViewController.swift in Sources */,
 				A1B214452183F44600A59BD7 /* PlaySoundsViewController.swift in Sources */,
 				A1048C6321834B9E00BA9FE6 /* AppDelegate.swift in Sources */,
+				A16DC6872184EF2000B97DA9 /* PlaySoundsViewController+Audio.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
