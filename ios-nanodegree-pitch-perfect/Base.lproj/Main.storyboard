@@ -25,14 +25,8 @@
                                     <action selector="recordAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="POq-TT-1ae"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to Record" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8GT-OK-68s">
-                                <rect key="frame" x="134" y="427" width="107" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zrk-k2-KbN">
-                                <rect key="frame" x="155.5" y="512" width="64" height="64"/>
+                                <rect key="frame" x="155.5" y="419" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="64" id="6D5-Se-vUB"/>
                                     <constraint firstAttribute="height" constant="64" id="elg-bC-InW"/>
@@ -42,15 +36,21 @@
                                     <action selector="stopRecording:" destination="BYZ-38-t0r" eventType="touchUpInside" id="23S-f9-dIb"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to Record" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8GT-OK-68s">
+                                <rect key="frame" x="134" y="80" width="107" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Zrk-k2-KbN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EBn-U7-GQR"/>
                             <constraint firstItem="ugk-ft-sj8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GGp-wI-QbN"/>
                             <constraint firstItem="ugk-ft-sj8" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Gdn-4b-yIE"/>
-                            <constraint firstItem="8GT-OK-68s" firstAttribute="top" secondItem="ugk-ft-sj8" secondAttribute="bottom" constant="16" id="KR7-of-8tI"/>
-                            <constraint firstItem="Zrk-k2-KbN" firstAttribute="top" secondItem="8GT-OK-68s" secondAttribute="bottom" constant="64" id="Mrn-8e-45s"/>
                             <constraint firstItem="8GT-OK-68s" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ne1-6a-xg2"/>
+                            <constraint firstItem="Zrk-k2-KbN" firstAttribute="top" secondItem="ugk-ft-sj8" secondAttribute="bottom" constant="8" id="aLh-4u-87u"/>
+                            <constraint firstItem="8GT-OK-68s" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="phb-Z9-olK"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
